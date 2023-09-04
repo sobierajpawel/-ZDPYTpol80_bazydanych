@@ -2,9 +2,9 @@
 
 ### Zapytania DML - SELECT 
 
-1) Utwórz nową bazę danych i wywołaj skrypt.
+1) Utwórz nową bazę danych i wywołaj skrypty do utworzenia schemy oraz danych (baza sakila).
 
-https://www.dropbox.com/s/950twvsg9065ulu/export_db.sql?dl=0
+https://dev.mysql.com/doc/index-other.html 
 
 2) Zbuduj zapytania SELECT:
 
