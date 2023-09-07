@@ -28,15 +28,15 @@ Kolumna `id` powinna być jednoznacznym identyfikatorem tabeli. Kolumny `trade` 
 
 7) Napisz zapytanie SQL odpowiedzialne za tworzenie tabeli `job_offers`, która powinna zawierać kolumny:
   - `id` typu int pole nie powinno być puste - automatyczna inkrementacja, klucz główny
-  - `offer_title` typu varchar z maksymalną długością 40
-  - `offer_min_salary` typu decimal
-  - `offer_max_salary` typu decimal
+  - `offer_title` typu varchar z maksymalną długością 40 `NOT NULL`,
+  - `offer_min_salary` typu decimal,
+  - `offer_max_salary` typu decimal,
 
 8) Napisz zapytanie SQL odpowiedzialne za tworzenie tabeli `candidates`, która powinna zawierać pola:
  - `id` typu int pole nie powinno być puste - automatyczna inkrementacja, klucz główny
- - `first_name` typu varchar z maksymalną długością 40
- - `last_name` typu varchar z maksymalną długością 40
- - `email` typu varchar z maksymalną długością 30
+ - `first_name` typu varchar z maksymalną długością 40 `NOT NULL`,
+ - `last_name` typu varchar z maksymalną długością 40 `NOT NULL`,
+ - `email` typu varchar z maksymalną długością 30 `NOT NULL`,
  - `phone_number` typu varchar z maksymalną długością 12
- - `job_offer_id` klucz obcy do tabeli `job_offer`
+ - `job_offer_id` klucz obcy do tabeli `job_offer` 
  - `company_id` klucz obcy do tabeli `company`
