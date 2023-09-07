@@ -23,7 +23,7 @@ Tabela powinna zostać stworzona, tylko jeśli nie istnieje. `movie_id` powinno 
   - `trade` typu varchar z maksymalną długością 40
   - `number_of_employees` typu int
     
-Kolumna `company_id` powinna być jednoznacznym identyfikatorem tabeli. Kolumny `trade` i `number_of_employees` nie powinny zawierać wartości `null`. Kolumna `number_of_employees` powinna być domyślnie ustawiona na 0.
+Kolumna `id` powinna być jednoznacznym identyfikatorem tabeli. Kolumny `trade` i `number_of_employees` nie powinny zawierać wartości `null`. Kolumna `number_of_employees` powinna być domyślnie ustawiona na 0.
 
 
 7) Napisz zapytanie SQL odpowiedzialne za tworzenie tabeli `job_offers`, która powinna zawierać kolumny:
