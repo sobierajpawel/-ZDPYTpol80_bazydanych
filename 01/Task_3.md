@@ -38,5 +38,5 @@ Kolumna `id` powinna być jednoznacznym identyfikatorem tabeli. Kolumny `trade` 
  - `last_name` typu varchar z maksymalną długością 40 `NOT NULL`,
  - `email` typu varchar z maksymalną długością 30 `NOT NULL`,
  - `phone_number` typu varchar z maksymalną długością 12
- - `job_offer_id` klucz obcy do tabeli `job_offer` 
- - `company_id` klucz obcy do tabeli `company`
+ - `job_offer_id` klucz obcy do tabeli `job_offers` 
+ - `company_id` klucz obcy do tabeli `companies`
