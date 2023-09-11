@@ -2,10 +2,10 @@
 
 ### Zapytania DML
 
-1) Napisz zapytania INSERT do tabel `companies`, `job_offers` and `candidates`.
+1) Napisz zapytania INSERT do tabel `companies`, `job_offers` and `candidates` - minimum 3.
 
-2) Napisz zapytania UPDATE do powyższych tabel.
+2) Napisz zapytania UPDATE do powyższych tabel  - minimum 3.
 
-3) Napisz zapytania SELECT ze złączeniami.
+3) Napisz zapytania SELECT ze złączeniami  - minimum 3.
 
-4) Usuń rekordy przy wykorzystaniu zapytania DELETE
+4) Usuń rekordy przy wykorzystaniu zapytania DELETE  - minimum 3.
