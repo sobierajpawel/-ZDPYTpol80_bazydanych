@@ -14,20 +14,3 @@ CREATE TABLE employees (
     change_date DATETIME DEFAULT NULL
 );
 ```
-
-    - zredukuje budżet zapisany w tabeli SalaryBudgets po usunięciu dowolnego rekordu z tabeli Salaries.
-
-```sql
-CREATE TABLE Salaries (
-    employeeNumber INT PRIMARY KEY,
-    salary DECIMAL(10,2) NOT NULL DEFAULT 0
-);
-CREATE TABLE SalaryBudgets(
-    total DECIMAL(15,2) NOT NULL
-);
-INSERT INTO Salaries(employeeNumber,salary) VALUES
-    (1002,5000),
-    (1056,7000),
-    (1076,8000);
-INSERT INTO SalaryBudgets(total) SELECT SUM(salary) FROM Salaries;
-```
