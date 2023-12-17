@@ -2,6 +2,8 @@
 
 ### Zapytania DDL
 
+Zapytania wykonaj na nowej bazie danych !
+
 1) Napisz zapytanie SQL odpowiedzialne za tworzenie tabeli `movies`, która powinna zawierać kolumny:
  - `movie_id` typu int pole nie powinno być puste - automatyczna inkrementacja, klucz główny
  - `movie_name` typu varchar z maksymalną długością 40
