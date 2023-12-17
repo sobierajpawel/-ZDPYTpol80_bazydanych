@@ -2,7 +2,7 @@
 
 ### Zapytania DML
 
-1) Napisz zapytania INSERT do tabel `companies`, `job_offers` and `candidates` - minimum 3.
+1) Napisz zapytania INSERT do tabel `companies`, `job_offers` and `candidates` - minimum 3 dla każdej tabeli.
 
 2) Napisz zapytania UPDATE do powyższych tabel  - minimum 3.
 
