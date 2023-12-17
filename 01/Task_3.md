@@ -16,7 +16,7 @@ Tabela powinna zostać stworzona, tylko jeśli nie istnieje. `movie_id` powinno 
 
 3) Usuń tabelę `movies_V2`
 
-4) Napisz zapytanie SQL odpowiedzialne za zmianę nazwy tabeli movies na `movies_renamed`.
+4) Napisz zapytanie SQL odpowiedzialne za zmianę nazwy tabeli `movies` na `movies_renamed`.
 
 5) Napisz zapytanie SQL odpowiedzialne za dodawanie kolumny movie_director do tabeli `movies_renamed`. Kolumna powinna być typu varchar z maksymalną długością 40.
 
