@@ -1,15 +1,22 @@
 # Zadanie 2
 
-### Widoki
+### Widoki i złącczenia
 
-1) Napisz widok, który:
+1) Wykonaj poniższy skrypt
+
+```sql
+ALTER TABLE sakila.city MODIFY COLUMN country_id smallint unsigned NULL;
+update city set country_id = null where city_id  in (4,5);
+```
+
+2) Napisz widok, który:
 
     - będzie zawierał powiązanie tabel `city` oraz `country`, wyświetli nazwę miast oraz nazwę państwa,
       wykorzystaj aliasy tak by kolumna nazwy miasta była wyświetlana jako `nazwa_miasta`, a kolumna 
-      reprezentująca nazwę państwa nazywała się `nazwa_kraju` 
+      reprezentująca nazwę państwa nazywała się `nazwa_kraju` (wykorzystaj `LEFT JOIN`)
 
     - będzie zawierał wyświetlał informacje o aktorach grających w filmach, wyświetl nazwę filmu oraz imię i nazwisko aktora, zastosuj podobnie jak poprzedniu inne nazwy kolumn
 
     - będzie wyświetlał dane statystyczny - minimalną, maksymalną, średnią, sumę długości filmów, zgrupowanych wg ratingu
 
-2) Wykonaj zapytania selekcji dla powyższych widoków
+3) Wykonaj zapytania selekcji dla powyższych widoków
