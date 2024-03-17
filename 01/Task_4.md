@@ -6,6 +6,6 @@
 
 2) Napisz zapytania UPDATE do powyższych tabel  - minimum 3.
 
-3) Napisz zapytania SELECT ze złączeniami  - minimum 3.
+3) Napisz zapytania SELECT ze złączeniami  - minimum 3 (dla chętnych).
 
 4) Usuń rekordy przy wykorzystaniu zapytania DELETE  - minimum 3.
