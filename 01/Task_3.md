@@ -2,7 +2,7 @@
 
 ### Zapytania DDL
 
-Zapytania wykonaj na nowej bazie danych !
+Zapytania wykonaj na nowej bazie danych!
 
 1) Napisz zapytanie SQL odpowiedzialne za tworzenie tabeli `companies`, która powinna zawierać kolumny:
   - `id` typu int pole nie powinno być puste - automatyczna inkrementacja, klucz główny
