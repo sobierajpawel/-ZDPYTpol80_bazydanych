@@ -13,6 +13,4 @@
 - rejestracja studentów
 - dowolny inny problem
 
-2) Dodaj zapytaniami INSERT rekordy do tabel.
-
-3) Napisz kilka zapytań SELECT również ze złączeniami.
+Muszą występować atrybuty typu `UNIQUE` `DEFAULT` `NOT NULL` etc.
